@@ -1,5 +1,5 @@
 # $${\color{Purple}JellyBean}$$
-Turning 25 is a big deal, and I wanted a way to celebrate it not just when it arrives, but all the way leading up to it. $${\color{Purple}JellyBean}$$ is a whimsical and nostalgic countdown timer built with JavaScript, counting down to my 25th birthday in 2029 styled in a sparkly TrinketScore aesthetic.
+$${\color{Purple}JellyBean}$$ is a whimsical and nostalgic countdown timer built with JavaScript, counting down to my 25th birthday in 2029 styled in a sparkly Trinketscore aesthetic. However, you can set the date to whatever events you want to celebrate!
 
 <img src="visual/Visual.png" width="300"/>
 
@@ -14,7 +14,7 @@ var countDownDate = new Date("Apr 1, 2029").getTime();
 ```
 ## Future Plans
 - [ ] Add a big celebratory animation (confetti, sparkle burst, sound effect) when the countdown reaches zero.
-- [ ] Functional input button for user to add a new date directly on the browser.
+- [ ] A GIF background.
 
 ## Credits
-Images are from $${\color{Red}Pinterest}$$ inspired by Trinketscore, $${\color{lightblue}NewJeans}$$, and $${\color{Pink}ILLIT}$$.
+Images are from $${\color{Red}Pinterest}$$.
