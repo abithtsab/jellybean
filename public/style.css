@@ -1,0 +1,86 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+.tamagochi {
+    width: 400px;
+    height: 500px;
+    background-image: url("eclipse.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.screen {
+    height: 230px;
+    width: 260px;
+    background-color: #E5F5FF;
+    position: relative;
+    bottom: 65px;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.heading {
+    font-size: 40px;
+    color: #860B9C;
+    font-family: monospace;
+    position: relative;
+    bottom: 30px;
+}
+
+.horizontal-picture {
+    height: 97px;
+    width: 245px;
+    border-radius: 20px;
+    background-image: url("screen.jpg");
+    position: relative;
+    left: 8px;
+    top: 8px;
+}
+
+.timer {
+    height: 110px;
+    width: 245px;
+    border-radius: 20px;
+    background-color: #C3E1FF;
+    position: relative;
+    left: 8px;
+    bottom: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    font-size: 65px;
+    position: relative;
+    top: 20px;
+    color: #000;
+    font-family: monospace;
+}
+
+.deco-button {
+  display: flex;
+  gap: 20px;
+  position: relative;
+  bottom: 40px;
+}
+
+.dot {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.left {background-color: #f8989b;}
+.middle {background-color: #eaffdb;}
+.right {background-color:#f9a4f9;}
